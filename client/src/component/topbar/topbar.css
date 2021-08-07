@@ -1,0 +1,92 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 1px 1px 8px -2px grey;
+  z-index: 999;
+}
+
+.topLeft,
+.topRight {
+  flex: 2.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topRightLogout {
+  flex: 1;
+}
+
+.topIcon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topIcon:hover {
+  font-size: 23px;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.topListItem:hover {
+  color: grey;
+  font-weight: 500;
+  transition-duration: 0.3s;
+}
+
+.topImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 18px;
+}
+
+.topLogoutButton {
+  padding: 10px;
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.topLogoutButton:hover {
+  font-size: 15px;
+  background-color: red;
+}
